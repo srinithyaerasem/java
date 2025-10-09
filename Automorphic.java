@@ -40,6 +40,7 @@ public class Automorphic {
 	*/
 	
 	static boolean isAutmorphic(int n) {
+		
 		int product = n*n;
 		int i=0;
 		int sum = 0;
