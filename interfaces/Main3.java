@@ -1,0 +1,20 @@
+package com.interfaces;
+
+import java.util.Scanner;
+
+public class Main3 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter game name (football/cricket):");
+		String input = sc.next();
+		if(input.equals("football")) {
+			Football f = new Football();
+			f.play();
+		}
+		else {
+			Cricket c = new Cricket();
+			c.play();
+		}
+	}
+
+}
